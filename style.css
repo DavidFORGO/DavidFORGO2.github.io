@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#onglet{
+    background-color: #333366;
+    color:#fff ;
+    margin: 0px;
+}
+#onglet #firstOnglet{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 10%;
+
+}
+#onglet #firstOnglet a{
+    margin-right: 20px;
+    margin: 10px;
+    color:#fff ;
+
+}
+#onglet #firstOnglet input{
+    width: 50%;
+    height: 35px;
+    border-radius: 20px;
+    border-color: #ff6a00;
+    margin: 10px;
+
+}
+
+#onglet #firstOnglet h2 {
+    color: #ff6a00;
+}
+#onglet #secondOnglet{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 10%;
+
+}
+#onglet #secondOnglet a{
+    margin-right: 20px;
+    margin: 10px;
+    color:#fff ;
+
+}
+#onglet #secondOnglet #gauche {
+    margin-left: 22%;
+}
+.main{
+    margin-top: 20px;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.main .content .card .right img{
+    height: 300px;
+    width: 950px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+.main .content .card .left{
+    flex: 0 0 50%;
+    background-color: #0086fb;
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+}
+
+.main .content .card .right{
+    flex: 0 0 50%;
+    background-color: #0086fb;
+}
+#materiels{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 45px;
+    background-color: #0086fb;
+}
+#materiels a{
+    margin-right: 7%;
+    margin-left: 20px;
+    margin-top:10px ;
+    color: #fff;
+}
+
+#produits{
+    margin: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #0086fb;
+    text-align: center;
+}
+#produits #col1 div{
+    display: inline-block;
+    margin: 20px;
+    background-color: #fff;
+}
+#produits #col2 div{
+    display: inline-block;
+    margin: 20px;
+    background-color: #fff;
+
+}
+#produits #col1 div img{
+    width: 155px;
+    height: 155px;
+    margin-top: 5px;
+    align-items: center;
+}
+#produits #col2 div img{
+    width: 185px;
+    height: 185px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #333366;
+    color: #fff;
+    margin: 0px;
+    padding: 5px;
+}
